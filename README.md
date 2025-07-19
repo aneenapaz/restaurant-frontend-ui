@@ -9,7 +9,13 @@ This project is a simple practice frontend for a restaurant website, created usi
 
 ## 📁 Project Structure
 
-restaurant-frontend-ui/ └── docs/ # GitHub Pages root folder ├── index.html # Landing page with links ├── home-page/ # Folder for home page content │ └── index.html └── feedback-page/ # Folder for feedback form └── index.html
+restaurant-frontend-ui/
+└── docs/ # GitHub Pages root folder
+├── index.html # Landing page with links
+├── home-page/ # Folder for home page content
+│ └── index.html
+└── feedback-page/ # Folder for feedback form
+└── index.html
 ---
 
 ## 🚀 Features
@@ -44,13 +50,6 @@ This project helped me practice:
 - Static website structure  
 - Basic HTML/CSS layout and linking  
 - Organizing files in a maintainable way  
-
----
-
-## 📸 Screenshot
-
-<!-- Optional: Save a screenshot as docs/landing-page-screenshot.png -->
-<!-- ![Landing Page Screenshot](docs/landing-page-screenshot.png) -->
 
 ---
 
