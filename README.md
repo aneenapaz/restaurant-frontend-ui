@@ -9,15 +9,13 @@ This project is a simple practice frontend for a restaurant website, created usi
 
 ## 📁 Project Structure
 
-\`\`\`text
 restaurant-frontend-ui/
-└── docs/                       # GitHub Pages root folder
-    ├── index.html             # Landing page with links
-    ├── home-page/             # Folder for home page content
-    │   └── index.html
-    └── feedback-page/         # Folder for feedback form
-        └── index.html
-\`\`\`
+└── docs/ # GitHub Pages root folder
+├── index.html # Landing page with links
+├── home-page/ # Folder for home page content
+│ └── index.html
+└── feedback-page/ # Folder for feedback form
+└── index.html
 
 ---
 
