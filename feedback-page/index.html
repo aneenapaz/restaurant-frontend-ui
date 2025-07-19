@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BookABite - Feedback</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="BookABite Logo" class="logo-img" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Reservations</a></li>
+      <li><a href="#">New Reservation</a></li>
+      <li><a href="#">Search</a></li>
+      <li><a href="#">Add Table</a></li>
+    </ul>
+    <button class="login-btn">Login</button>
+  </nav>
+
+  <!-- Header Section -->
+  <div class="header">
+    <img src="image2.jpg" alt="restaurant" class="header-img" />
+    <h1 class="heading">Feedback</h1>
+  </div>
+
+  <!-- Feedback Section -->
+  <section class="feedback-section">
+    <h1 class="center-text">We'd love to hear from you!</h1>
+    <p class="center-text">Tell us about your experience at BookABite.</p>
+
+    <form class="feedback-form" action="star-rating.html" method="get">
+      <label for="name"><strong>Name</strong></label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email"><strong>Email</strong></label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="rating"><strong>Star Rating</strong></label>
+      <select id="rating" name="rating" required>
+        <option value="" disabled selected>Select rating</option>
+        <option value="5">★★★★★ (5 - Excellent)</option>
+        <option value="4">★★★★ (4 - Good)</option>
+        <option value="3">★★★ (3 - Average)</option>
+        <option value="2">★★ (2 - Poor)</option>
+        <option value="1">★ (1 - Very Poor)</option>
+      </select>
+
+      <label for="recommend"><strong>Would you like to recommend us?</strong></label>
+      <select id="recommend" name="recommend" required>
+        <option value="" disabled selected>Select an option</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label for="comments"><strong>Tell us more about your experience</strong></label>
+      <textarea id="comments" name="comments" rows="5" placeholder="Enter your feedback here..."></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-copy">&copy; 2025 BookABite. All rights reserved.</p>
+      <p>Your trusted restaurant reservation system.</p>
+      <p>Contact us: support@bookabite.com | +123 456 7890</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8dede;
+  color: #510d0d;
+}
+
+/* Navbar */
+.navbar {
+  background: #510d0d;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn {
+  background: white;
+  color: #510d0d;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Header */
+.header {
+  position: relative;
+}
+
+.header-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.heading {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+/* Feedback Section */
+.feedback-section {
+  background: white;
+  max-width: 500px;
+  margin: 30px auto 60px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Combined heading styles */
+.center-text {
+  text-align: center;
+  color: #510d0d;
+  margin-bottom: 0;
+  line-height: 1.3; /* Slightly more space between lines */
+}
+
+/* Add margin after second line */
+.center-text + .center-text {
+  margin-bottom: 30px; /* more space below the combined heading */
+}
+
+/* Add margin bottom to labels */
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.feedback-form select {
+  cursor: pointer;
+}
+
+/* Submit button - full width */
+.feedback-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #510d0d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;      /* full width */
+  display: block;
+  text-align: center;
+}
+
+.feedback-form button:hover {
+  background: #400808;
+}
+
+/* Footer */
+.footer {
+  background-color: #510d0d;
+  color: white;
+  padding: 20px 30px;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-copy {
+  font-size: 0.95rem;
+}
